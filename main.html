@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="main.css">
     <title>Brian Shockency</title>
 </head>
@@ -24,6 +24,9 @@
                     <a href="#about" class="nav-link">About</a>
                 </li>
                 <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
                     <a href="#portfolio" class="nav-link">Portfolio</a>
                 </li>
                 <li>
@@ -36,7 +39,7 @@
         </nav>
         <div class="landing-text">
             <h1>Brian Shockency</h1>
-            <h6>Full Stack Developer</h6>
+            <h6>Full Stack Web Developer</h6>
         </div>
     </header>
 
@@ -51,23 +54,55 @@
                     <h6>Myself</h6>
                 </div>
                 <p>
-                    Insert text here
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, cumque asperiores. Odio repudiandae ullam sed laborum praesentium ipsa id impedit explicabo deserunt doloribus ea asperiores aperiam, rerum quam fugit nostrum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero praesentium sint repudiandae possimus laudantium at deleniti amet beatae in. Reprehenderit repellat iure earum, autem esse eligendi repudiandae unde harum laborum!
                 </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="social-media">
-                <ul class="nav-list">
-                    <li>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-facebook-square"></i>
-                        </a>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-twitter-square"></i>
-                        </a>
-                        <a href="#" class="icon-link">
-                            <i class="fab fa-instagram-square"></i>
-                        </a>
-                    </li>
-                </ul>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>This is What I can do for You</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fab fa-css3"></i>                    
+                    </div>
+                    <h1>Front-End Development</h1>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos inventore sunt quis consequuntur illo ipsa similique saepe iure in consequatur esse enim blanditiis, vero voluptates harum laborum! Ab, magnam delectus?</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h1>Back-End Development/Python</h1>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos inventore sunt quis consequuntur illo ipsa similique saepe iure in consequatur esse enim blanditiis, vero voluptates harum laborum! Ab, magnam delectus?</p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-laptop-code"></i> 
+                    </div>
+                    <h1>full Stack Web Development</h1>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos inventore sunt quis consequuntur illo ipsa similique saepe iure in consequatur esse enim blanditiis, vero voluptates harum laborum! Ab, magnam delectus?</p>
+                </div>
             </div>
         </div>
     </section>
@@ -79,7 +114,7 @@
                 <h6>View my recent projects</h6>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-img">
+                <div class="portfolio-img has-margin-right">
                     <img src="images/technology.jpeg" alt="No img">
                 </div>
                 <div class="portfolio-description">
@@ -92,7 +127,7 @@
                 </div>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-description">
+                <div class="portfolio-description has-margin-right">
                     <h6>Web Design</h6>
                     <h1>product layout</h1>
                     <p>
@@ -105,7 +140,7 @@
                 </div>
             </div>
             <div class="portfolio-item">
-                <div class="portfolio-img">
+                <div class="portfolio-img has-margin-right">
                     <img src="images/technology.jpeg" alt="No img">
                 </div>
                 <div class="portfolio-description">
@@ -164,21 +199,21 @@
                 <input type="text" id="email" name="email" placeholder="Enter your email..." required>
                 <label for="services">Services:</label>
                 <select name="services" id="service">
-                    <option value="">Web design</option>
-                    <option value="">Web development</option>
-                    <option value="">Web design/web development</option>
+                    <option value="">Front-End Development</option>
+                    <option value="">Back-End Development/Python</option>
+                    <option value="">Full Stack Web Development</option>
                 </select>
                 <label for="subject">Subject:</label>
                 <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-                <input type="submit" value="submit">
+                <button id="b1" type="submit">Submit</button>
             </form>
         </div>
     </section>
     <footer class="copyright">
         <div class="up" id="up">
             <i class="fas fa-chevron-up"></i>
-            <p>&copy; 2020 Brian Shockency</p>
         </div>
+        <p>&copy; 2020 Brian Shockency</p>
     </footer>
     
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
