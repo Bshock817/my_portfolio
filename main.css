@@ -198,6 +198,9 @@ li{
     font-weight: bold;
     padding: 1rem;
     user-select: none;
+    background: linear-gradient(to bottom,#04cdff, #0654fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* End Header */
 
