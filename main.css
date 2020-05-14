@@ -43,7 +43,7 @@ img{
 }
 .section-heading{
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
 .section-heading h1{
@@ -53,6 +53,9 @@ img{
     font-weight:300;
     position:relative;
     margin-bottom:1rem;
+    background: linear-gradient(to bottom, #0654fd, #04cdff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .section-heading h1::before,
 .section-heading h1::after{
@@ -61,7 +64,7 @@ position: absolute;
 bottom: -.5rem;
 left: 50%;
 transform: translateX(-50%);
-background-color: white;
+background: linear-gradient(to bottom,#04cdff, #0654fd);
 }
 .section-heading h1::before{
     width: 10rem;
@@ -76,7 +79,11 @@ background-color: white;
 }
 .section-heading h6{
     font-size: 1.6rem;
-    font-weight: 300;
+    font-weight: bold;
+    background: linear-gradient(to bottom,#04cdff, #0654fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 .has-margin-right{
     margin-right: 5rem;
@@ -290,21 +297,28 @@ li{
 }
 .portfolio-img{
     width: 50rem;
-    flex: 1;
+    flex: 2;
 }
 .portfolio-description{
-
+    flex: 1;
 }
-.portfolio-description h1{
-    font-size: 3rem;
+.portfolio-description p{
+    font-size: 1.5rem;
+}
+.portfolio-description h4{
+    font-size: 1.5rem;
     font-weight: 300;
     margin: 1rem 0;
 }
-.portfolio-description h6{
+.portfolio-description h1{
     font-size: 1.5rem;
     text-transform:uppercase;
     font-weight: 300;
-    opacity: .3;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #0654fd, #04cdff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 .portfolio-description .cta{
     display: inline-block;
@@ -375,6 +389,19 @@ li{
 /* End Work Exp */
 
 /* Start Contact */
+
+.References h4{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+}
+.References h4:hover{
+    background-color: #04cdff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
 
 form{
     width: 70%;

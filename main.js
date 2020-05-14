@@ -9,10 +9,10 @@ $(document).ready(function(){
         $('.top-nav').removeClass('open');
     });
 
-    $('.nav a[href*="#"]').on('click', function() {
+    $('nav a[href*="#"]').on('click', function() {
         $('html, body').animate( {
             scrollTop: $($(this).attr('href')).offset().top - 100
-        }, 1000);
+        }, 3000);
     });
 
     $('#up').on('click', function() {
