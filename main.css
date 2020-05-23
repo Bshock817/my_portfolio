@@ -89,6 +89,7 @@ background: linear-gradient(to bottom,#04cdff, #0654fd);
     margin-right: 5rem;
 }
 /* End Multiuse */
+
 /* Start Header */
 header{
     width: 100%;
@@ -114,7 +115,7 @@ header{
     align-items: center;
 }
 li{
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 .nav-link{
     font-family: monospace;
@@ -544,13 +545,13 @@ input,select,textarea{
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 375px) {
     .menu-toggler{
         top: 2rem;
         right: 2rem;
     }
     .landing-text h1{
-        font-size: 8rem;
+        font-size: 7rem;
     }
     .landing-text h6{
         font-size: 1.4rem;
